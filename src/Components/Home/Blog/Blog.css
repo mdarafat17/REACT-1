@@ -1,0 +1,13 @@
+a:hover .socil-icons {
+  color: white;
+}
+.team-card .social-icons{
+  left: -100%;
+  top: 16px;
+  visibility: hidden;
+}
+.team-card:hover .social-icons{
+  left: 16px;
+  top: 16px;
+  visibility: visible;
+}

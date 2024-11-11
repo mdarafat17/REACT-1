@@ -1,0 +1,28 @@
+footer li {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+}
+
+footer li::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  left: -100%; /* Line starts off-screen on the left */
+  transition: left 0.5s ease; /* Smooth transition effect */
+}
+
+footer li:hover::before {
+  left: 0; /* Slide in from the left on hover */
+}
+
+footer li::before {
+  transition: left 0.5s ease;
+}
+
+footer li:not(:hover)::before {
+  left: 100%; /* Slide out to the right when hover is removed */
+}

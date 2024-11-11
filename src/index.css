@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap');
+
+:root{
+
+  --primary :#2b4dff;
+}
+
+*{
+  font-family: "Anek Devanagari", sans-serif;
+}
+
+
+.btn-animation {
+  position: relative; /* Ensure the button is the positioned ancestor */
+  display: flex; /* Use flexbox for centering */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  overflow: hidden; /* Hide overflow for smooth animation */
+  
+}
+
+.btn-animation .animation-top,
+.btn-animation .animation-bottom {
+  position: absolute;
+  width: 100%; /* Make text span full width */
+  text-align: center; /* Center text within the element */
+  transition: all 0.2s;
+}
+
+.btn-animation .animation-top {
+  top: 10px; /* Starting position */
+}
+
+.btn-animation .animation-bottom {
+  bottom: -90px; /* Initial off-screen position */
+}
+
+.btn-animation:hover .animation-top {
+  top: -90px; /* Move off-screen on hover */
+}
+
+.btn-animation:hover .animation-bottom {
+  bottom: 10px; /* Move into view on hover */
+}
+
+/* button bold*/
+.btn-animation .animation-top2,
+.btn-animation .animation-bottom2 {
+  position: absolute;
+  width: 100%; /* Make text span full width */
+  text-align: center; /* Center text within the element */
+  transition: all 0.2s;
+}
+
+.btn-animation .animation-top2 {
+  top: 18px; /* Starting position */
+}
+
+.btn-animation .animation-bottom2 {
+  bottom: -90px; /* Initial off-screen position */
+}
+
+.btn-animation:hover .animation-top2 {
+  top: -90px; /* Move off-screen on hover */
+}
+
+.btn-animation:hover .animation-bottom2 {
+  bottom: 10px; /* Move into view on hover */
+}
+
+.btn-animation .animation-top3,
+.btn-animation .animation-bottom3 {
+  position: absolute;
+  width: 100%; /* Make text span full width */
+  text-align: center; /* Center text within the element */
+  transition: all 0.2s;
+}
+
+.btn-animation .animation-top3 {
+  top: 18px; /* Starting position */
+}
+
+.btn-animation .animation-bottom3 {
+  bottom: -80px; /* Initial off-screen position */
+}
+
+.btn-animation:hover .animation-top3 {
+  top: -90px; /* Move off-screen on hover */
+}
+
+.btn-animation:hover .animation-bottom3 {
+  bottom: 18px; /* Move into view on hover */
+}
+
+
+.dropdown:hover .menu-arrow{
+  transform: rotate(180dg);
+  transition: all 0.3s;
+
+
+}
+
+
+.dropdown-menu{
+  visibility: hidden;
+  opacity: 0;
+  top: 100px;
+  transition: all 0.4s;
+
+}
+
+.dropdown:hover .dropdown-menu{
+  visibility: visible;
+  opacity: 100;
+  top: 55px;
+  transition: all 0.4s;
+}
+
+.slick-next,
+.slick-prev{
+  display: none !important;
+}

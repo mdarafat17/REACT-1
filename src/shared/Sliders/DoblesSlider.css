@@ -1,0 +1,26 @@
+.swiper-pagination-bullet{
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black !important;
+  
+  
+}
+
+.swiper-pagination-bullet-active{
+  border: 3.5px solid rgb(245, 245 , 244) ;
+  outline: 2px solid black;
+}
+
+.swiper-pagination {
+  display: flex !important;
+  justify-content: center;
+  bottom: 5px !important;
+  
+} 
+.doblesSlider{
+  padding: 35px 0;
+}

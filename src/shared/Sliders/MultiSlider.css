@@ -1,0 +1,88 @@
+.slider-learn .withHover{
+  width: 0px !important;
+  height: 18px !important;
+  transition: all o.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+.slider-learn:hover .withHover{
+
+  width: 18px !important;
+  height: 18px !important;
+  transition: all o.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+.slider-learn .withoutHover{
+
+  width: 18px !important;
+  height: 18px !important;
+  transition: all o.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+
+.slider-learn:hover .withoutHover{
+  width: 0px !important;
+  height: 18px !important;
+  transition: all o.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+
+.slick-dots{
+  bottom: -45px !important;
+  display: flex !important;
+  justify-content: center;
+  
+}
+.slick-dots li{
+  width: 18px !important;
+  height: 18px !important;
+  border-radius: 100% !important;
+  display: flex;
+justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.slick-dots li button{
+  width: 10px !important;
+  height: 10px !important;
+  background:#0000001f;
+  border-radius: 100% !important;
+}
+
+.slick-dots li button::before {
+  color: transparent !important;
+}
+
+.slick-dots .slick-active button {
+  background-color: black;
+}
+
+.slick-dots .slick-active{
+  border: 1px solid !important;
+}
+
+.slider-card:hover .slider-icon{
+
+  background-color: rgba(0,75,250,0.463) !important;
+  transition: all o.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+
+}
+
+
