@@ -4,6 +4,7 @@ import Home from "../Components/Home/Home";
 import AboutUs from "../Components/AboutUs/AboutUs";
 import Pricing from "../Components/Pricing/Pricing";
 import OurTeam from "../Components/OurTeam/OurTeam";
+import Contact from "../Components/Contact/Contact";
 
 
 const router = createBrowserRouter([
@@ -29,6 +30,11 @@ const router = createBrowserRouter([
       {
         path: '/team',
         element: <OurTeam />
+
+      },
+      {
+        path: '/contact',
+        element: <Contact />
 
       },
 
