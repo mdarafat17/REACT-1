@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "title": "Web Development",
+    "icon": "/assets/i.svg",
+    "desc": "Developing a comprehensive IT strategy that aligns.",
+    "bg": "https://optech-next.vercel.app/assets/images/iconbox/icon4.svg",
+    "content": "<p class='pt-3'> A content management system helps you create, manage, and publish content on the web. It also keep content organized and accessible so it can be used and repurposed effectively. There are various kinds of content management systems available—from cloud-based to a headless </p> <p class='pt-3'> CMS provides user-friendly features for easy editing and is compatible with installing plugins and tools that provide even more features for advanced functions. API CMS’s are built to have an excellent user-friendly interface that is easy to use. </p>",
+    "Features":
+    
+    {"content": "A content management system (CMS) is an application that is used to manage content, allowing multiple contributors to create, edit and publish. Content in a CMS is typically stored in a database and displayed in a presentation layer based on a set of templates like a website.",
+    
+    "Feature": [
+      "Creating and editing content",
+      "Workflows, reporting, and content organization",
+      "User & role-based administration and security",
+      "Flexibility, scalability, and performance and analysis",
+      "Multilingual content capabilities"
+    ]
+  
+  
+  },
+  
+     "Goal": "A content management system (CMS) is an application that is used to manage content, allowing multiple contributors to create, edit and publish. Content in a CMS is typically stored in a database and displayed in a presentation layer based on a set of templates like a website."
+  },
+  {
+    "id": 2,
+    "title": "Web & Mobile App Development",
+    "icon": "/assets/i.svg",
+    "desc": "Developing a comprehensive IT strategy that aligns.",
+    "bg": "https://optech-next.vercel.app/assets/images/iconbox/icon4.svg",
+    "Overview": "<p class='pt-3'> A content management system helps you create, manage, and publish content on the web. It also keep content organized and accessible so it can be used and repurposed effectively. There are various kinds of content management systems available—from cloud-based to a headless </p> <p class='pt-3'> CMS provides user-friendly features for easy editing and is compatible with installing plugins and tools that provide even more features for advanced functions. API CMS’s are built to have an excellent user-friendly interface that is easy to use. </p>",
+    "Features":{"content": "A content management system (CMS) is an application that is used to manage content, allowing multiple contributors to create, edit and publish. Content in a CMS is typically stored in a database and displayed in a presentation layer based on a set of templates like a website.",
+    "Feature": [
+      "Creating and editing content",
+      "Workflows, reporting, and content organization",
+      "User & role-based administration and security",
+      "Flexibility, scalability, and performance and analysis",
+      "Multilingual content capabilities"
+    ]
+  
+  
+  },
+  "Goal": "A content management system (CMS) is an application that is used to manage content, allowing multiple contributors to create, edit and publish. Content in a CMS is typically stored in a database and displayed in a presentation layer based on a set of templates like a website."
+  },
+  {
+    "id": 3,
+    "title": "Digital Marketing Services ",
+    "icon": "/assets/i.svg",
+    "desc": "Developing a comprehensive IT strategy that aligns.",
+    "bg": "https://optech-next.vercel.app/assets/images/iconbox/icon4.svg",
+    "Overview": "<p class='pt-3'> A content management system helps you create, manage, and publish content on the web. It also keep content organized and accessible so it can be used and repurposed effectively. There are various kinds of content management systems available—from cloud-based to a headless </p> <p class='pt-3'> CMS provides user-friendly features for easy editing and is compatible with installing plugins and tools that provide even more features for advanced functions. API CMS’s are built to have an excellent user-friendly interface that is easy to use. </p>",
+    "Features":{"content": "A content management system (CMS) is an application that is used to manage content, allowing multiple contributors to create, edit and publish. Content in a CMS is typically stored in a database and displayed in a presentation layer based on a set of templates like a website.",
+    "Feature": [
+      "Creating and editing content",
+      "Workflows, reporting, and content organization",
+      "User & role-based administration and security",
+      "Flexibility, scalability, and performance and analysis",
+      "Multilingual content capabilities"
+    ]
+  
+  
+  },
+  "Goal": "A content management system (CMS) is an application that is used to manage content, allowing multiple contributors to create, edit and publish. Content in a CMS is typically stored in a database and displayed in a presentation layer based on a set of templates like a website."
+  },
+  {
+    "id": 4,
+    "title": "Cyber Security Solutions",
+    "icon": "/assets/i.svg",
+    "desc": "Developing a comprehensive IT strategy that aligns.",
+    "bg": "https://optech-next.vercel.app/assets/images/iconbox/icon4.svg",
+    "Overview": "<p class='pt-3'> A content management system helps you create, manage, and publish content on the web. It also keep content organized and accessible so it can be used and repurposed effectively. There are various kinds of content management systems available—from cloud-based to a headless </p> <p class='pt-3'> CMS provides user-friendly features for easy editing and is compatible with installing plugins and tools that provide even more features for advanced functions. API CMS’s are built to have an excellent user-friendly interface that is easy to use. </p>",
+    "Features":{"content": "A content management system (CMS) is an application that is used to manage content, allowing multiple contributors to create, edit and publish. Content in a CMS is typically stored in a database and displayed in a presentation layer based on a set of templates like a website.",
+    "Feature": [
+      "Creating and editing content",
+      "Workflows, reporting, and content organization",
+      "User & role-based administration and security",
+      "Flexibility, scalability, and performance and analysis",
+      "Multilingual content capabilities"
+    ]
+  
+  
+  },
+  "Goal": "A content management system (CMS) is an application that is used to manage content, allowing multiple contributors to create, edit and publish. Content in a CMS is typically stored in a database and displayed in a presentation layer based on a set of templates like a website."
+  },
+  {
+    "id": 5,
+    "title": "Web & Mobile App Development",
+    "icon": "/assets/i.svg",
+    "desc": "Developing a comprehensive IT strategy that aligns.",
+    "bg": "https://optech-next.vercel.app/assets/images/iconbox/icon4.svg",
+    "Overview": "<p class='pt-3'> A content management system helps you create, manage, and publish content on the web. It also keep content organized and accessible so it can be used and repurposed effectively. There are various kinds of content management systems available—from cloud-based to a headless </p> <p class='pt-3'> CMS provides user-friendly features for easy editing and is compatible with installing plugins and tools that provide even more features for advanced functions. API CMS’s are built to have an excellent user-friendly interface that is easy to use. </p>",
+    "Features":{"content": "A content management system (CMS) is an application that is used to manage content, allowing multiple contributors to create, edit and publish. Content in a CMS is typically stored in a database and displayed in a presentation layer based on a set of templates like a website.",
+    "Feature": [
+      "Creating and editing content",
+      "Workflows, reporting, and content organization",
+      "User & role-based administration and security",
+      "Flexibility, scalability, and performance and analysis",
+      "Multilingual content capabilities"
+    ]
+  
+  
+  },
+  "Goal": "A content management system (CMS) is an application that is used to manage content, allowing multiple contributors to create, edit and publish. Content in a CMS is typically stored in a database and displayed in a presentation layer based on a set of templates like a website."
+  },
+  {
+    "id": 6,
+    "title": "UI/UX & Branding Identity",
+    "icon": "/assets/i.svg",
+    "desc": "Developing a comprehensive IT strategy that aligns.",
+    "bg": "https://optech-next.vercel.app/assets/images/iconbox/icon4.svg",
+    "Overview": "<p class='pt-3'> A content management system helps you create, manage, and publish content on the web. It also keep content organized and accessible so it can be used and repurposed effectively. There are various kinds of content management systems available—from cloud-based to a headless </p> <p class='pt-3'> CMS provides user-friendly features for easy editing and is compatible with installing plugins and tools that provide even more features for advanced functions. API CMS’s are built to have an excellent user-friendly interface that is easy to use. </p>",
+    "Features":{"content": "A content management system (CMS) is an application that is used to manage content, allowing multiple contributors to create, edit and publish. Content in a CMS is typically stored in a database and displayed in a presentation layer based on a set of templates like a website.",
+    "Feature": [
+      "Creating and editing content",
+      "Workflows, reporting, and content organization",
+      "User & role-based administration and security",
+      "Flexibility, scalability, and performance and analysis",
+      "Multilingual content capabilities"
+    ]
+  
+  
+  },
+  "Goal": "A content management system (CMS) is an application that is used to manage content, allowing multiple contributors to create, edit and publish. Content in a CMS is typically stored in a database and displayed in a presentation layer based on a set of templates like a website."
+  }
+  
+
+]

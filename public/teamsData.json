@@ -1,0 +1,158 @@
+[
+  {
+    "id":1,
+    "username": "marvin",
+    "photo": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fteam%2Fteam1.png&w=1920&q=75",
+    "name": "Marvin McKinney",
+    "designation": "CEO &amp; Founder",
+    "social":{
+      "linkdin" : "/",
+      "x": "/",
+      "instagram": "/",
+      "facebook" : "/"
+
+
+    },
+    "discription": "A content management system helps you create, manage, and publish content on the web. It also keep content organized and accessible so it can be used and repurposed effectively.",
+    "phone": "518-564-3200",
+    "email": "qubohub@example.com"
+
+  },
+  {
+    "id":2,
+    "username": "sophia",
+    "photo": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fteam%2Fteam-details.png&w=1920&q=75",
+    "name": "Sophia Rodriguez",
+    "designation": "CEO &amp; Founder",
+    "social":{
+      "linkdin" : "/",
+      "x": "/",
+      "instagram": "/",
+      "facebook" : "/"
+
+
+    },
+    "discription": "A content management system helps you create, manage, and publish content on the web. It also keep content organized and accessible so it can be used and repurposed effectively.",
+    "phone": "518-564-3200",
+    "email": "qubohub@example.com"
+
+  },
+  {
+    "id":3,
+    "username": "marvin1",
+    "photo": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fteam%2Fteam3.png&w=1920&q=75",
+    "name": "Marvin McKinney",
+    "designation": "Lead Developer",
+    "social":{
+      "linkdin" : "/",
+      "x": "/",
+      "instagram": "/",
+      "facebook" : "/"
+
+
+    },
+    "discription": "A content management system helps you create, manage, and publish content on the web. It also keep content organized and accessible so it can be used and repurposed effectively.",
+    "phone": "518-564-3200",
+    "email": "qubohub@example.com"
+
+  },
+  {
+    "id":4,
+    "username": "alexander",
+    "photo": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fteam%2Fteam4.png&w=1920&q=75",
+    "name": "Alexander Cameron",
+    "designation": "Product Designer",
+    "social":{
+      "linkdin" : "/",
+      "x": "/",
+      "instagram": "/",
+      "facebook" : "/"
+
+
+    },
+    "discription": "A content management system helps you create, manage, and publish content on the web. It also keep content organized and accessible so it can be used and repurposed effectively.",
+    "phone": "518-564-3200",
+    "email": "qubohub@example.com"
+
+  },
+  {
+    "id":5,
+    "username": "barbara",
+    "photo": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fteam%2Fteam5.png&w=1920&q=75",
+    "name": "Barbara Dundas",
+    "designation": "Digital Marketer",
+    "social":{
+      "linkdin" : "/",
+      "x": "/",
+      "instagram": "/",
+      "facebook" : "/"
+
+
+    },
+    "discription": "A content management system helps you create, manage, and publish content on the web. It also keep content organized and accessible so it can be used and repurposed effectively.",
+    "phone": "518-564-3200",
+    "email": "qubohub@example.com"
+
+  },
+  {
+    "id":6,
+    "username": "marvin",
+    "photo": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fteam%2Fteam1.png&w=1920&q=75",
+    "name": "Marvin McKinney",
+    "designation": "CEO &amp; Founder",
+    "social":{
+      "linkdin" : "/",
+      "x": "/",
+      "instagram": "/",
+      "facebook" : "/"
+
+
+    },
+    "discription": "A content management system helps you create, manage, and publish content on the web. It also keep content organized and accessible so it can be used and repurposed effectively.",
+    "phone": "518-564-3200",
+    "email": "qubohub@example.com"
+
+  },
+  {
+    "id":7,
+    "username": "marvin",
+    "photo": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fteam%2Fteam1.png&w=1920&q=75",
+    "name": "Marvin McKinney",
+    "designation": "CEO &amp; Founder",
+    "social":{
+      "linkdin" : "/",
+      "x": "/",
+      "instagram": "/",
+      "facebook" : "/"
+
+
+    },
+    "discription": "A content management system helps you create, manage, and publish content on the web. It also keep content organized and accessible so it can be used and repurposed effectively.",
+    "phone": "518-564-3200",
+    "email": "qubohub@example.com"
+
+  },
+  {
+    "id":8,
+    "username": "marvin",
+    "photo": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fteam%2Fteam1.png&w=1920&q=75",
+    "name": "Marvin McKinney",
+    "designation": "CEO &amp; Founder",
+    "social":{
+      "linkdin" : "/",
+      "x": "/",
+      "instagram": "/",
+      "facebook" : "/"
+
+
+    },
+    "discription": "A content management system helps you create, manage, and publish content on the web. It also keep content organized and accessible so it can be used and repurposed effectively.",
+    "phone": "518-564-3200",
+    "email": "qubohub@example.com"
+
+  }
+  
+
+
+
+]
