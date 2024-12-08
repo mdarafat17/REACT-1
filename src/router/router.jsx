@@ -10,6 +10,7 @@ import ServiceDetails from "../Components/Services/ServiceDetails";
 import TeamPage from "../Components/TeamPage/TeamPage";
 import TeamDetails from "../Components/TeamPage/TeamDetails/TeamDetails";
 import Blogs from "../Components/Blog/Blogs";
+import BlogsDetails from "../Components/Blog/BlogsDetails";
 
 
 const router = createBrowserRouter([
@@ -72,6 +73,11 @@ const router = createBrowserRouter([
       {
         path: '/blogs',
         element: <Blogs />
+
+      },
+      {
+        path: '/blog-details/:id',
+        element: <BlogsDetails />
 
       },
 

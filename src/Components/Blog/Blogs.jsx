@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaAngleRight } from 'react-icons/fa';
 import { FaArrowRightLong } from 'react-icons/fa6';
+import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 import { Link } from 'react-router-dom';
 
 const Blogs = () => {
@@ -69,6 +70,39 @@ const Blogs = () => {
                 </div>
               ))
             }
+
+            {/* pagination korar jonno  array jeta likhchi seta dinamic vabe nuber asar jonno */}
+            <div className="py-12 flex items-center justify-start gap-2">
+              <button
+              
+                onClick={() => setCurrentData(currentData - 1)}
+                disabled={currentData == 1}
+                className='bg-[#585b6f86] disabled:bg-[#585b6f] p-5 rounded-lg transition-all duration-300 hover:bg-[#2b4dff] text-black hover:text-white disabled:text-black w-16 h-16'  >
+                <IoIosArrowBack className='size-5  ' />
+
+              </button>
+
+              {
+                Array.from({ length: Math.ceil(blogsData?.length / dividedData) }, (_, number) => (
+                  <button key={number}
+                    onClick={() => setCurrentData( number + 1)}
+                    className={`bg-[#585b6f86] p-5 rounded-lg transition-all duration-300 hover:bg-[#2b4dff] text-black hover:text-white  w-16 h-16 ${currentData == (number + 1) && "bg-[#2b4dff] text-white"} `}  >
+                
+                    {number + 1}
+
+              
+                  </button>
+                ))
+              }
+
+              <button
+               onClick={() => setCurrentData(currentData + 1)}
+               disabled={currentData == Math.ceil(blogsData?.length / dividedData)}
+                className='bg-[#585b6f86] p-5 rounded-lg transition-all duration-300 hover:bg-[#2b4dff] text-black hover:text-white w-16 h-16  disabled:text-black disabled:bg-[#585b6f]'  >
+                <IoIosArrowForward className='size-5  ' />
+
+              </button>
+            </div>
           </div>
           <div className="w-full md:col-span-1"></div>
         </div>
