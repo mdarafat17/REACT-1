@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { FaAngleRight } from 'react-icons/fa';
 import { Link, useLocation } from 'react-router-dom';
 import parse from 'html-react-parser';
+import { SlEarphonesAlt } from 'react-icons/sl';
+import DownBanner from './DownBanner/DownBanner';
+import { MdOutlineArrowOutward } from 'react-icons/md';
 
 
 const ServiceDetails = () => {
@@ -88,18 +91,38 @@ const ServiceDetails = () => {
 
           </div>
           <div className="w-full col-span-1">
-            <div className="w-full">
+
+            <div className="w-full ">
               {
                 service?.map((title, i) => (
-                  <Link className='block py-5 px-3 bg-slate-200 my-4 rounded-lg  text-blue-900 font-semibold' key={i} to={`/service-details/${title.id}`}>{title?.title }</Link>
+                  <Link className=' py-5 px-3 bg-slate-200 hover:bg-[#2b4dff] hover:text-white my-4 rounded-lg  text-blue-900 font-semibold flex items-center space-between ' key={i} to={`/service-details/${title.id}`}>{title?.title } <MdOutlineArrowOutward /> </Link> 
                 ))
               }
+            </div>
+            <div className=" bg-[url('/public/assets/bg.png')] bg-cover text-center text-white items-center px-[60px] h-[500px] mt-[50px] pt-[70px] rounded-lg">
+              
+              <div className="text-[50px] text-center pl-[120px] font-semibold pb-[45px]">< SlEarphonesAlt /></div>
+              <div className=""><h1 className='font-semibold text-[35px]'>Don't hesitate to contact us</h1>
+                <p>At our IT solution company, we are committed to exceptional</p></div>
+              
+               <div className=" flex justify-center mt-[25px] pb-[30px] ">
+        <button className='btn btn-animation w-[150px] py-8 lg:w-[200px] bg-[#2b4dff] text-white text-lg border-0 outline-none hover:bg-[#2b4dff]'>
+                      <p className='animation-top2 w-[140px] lg:w-[200px] text-center'>Get in Touch</p>
+                      <p className='animation-bottom2 w-[140px] lg:w-[200px] text-center'>Get in Touch</p>
+            </button>
+      </div>
+              
+
+
+
+              
             </div>
 
           </div>
         </div>
 
       </div>
+      <DownBanner/>
     </div>
 
 

@@ -1,6 +1,9 @@
 import React from 'react';
 import { FaAngleRight, FaBookmark, FaCalendar, FaCommentAlt } from 'react-icons/fa';
 import { Link, useLocation } from 'react-router-dom';
+import parse from 'html-react-parser';
+import { comment } from 'postcss';
+import BlogPageRight from './BlogPageRight';
 
 const BlogsDetails = () => {
 
@@ -73,8 +76,39 @@ const BlogsDetails = () => {
 
               </div>
             </div>
+            <div className="w-full">
+             {parse(`${currentData?.content}`)} 
+            </div>
+            <div className="w-full flex items-center gap-2 pt-2">
+              {
+                currentData?.tags?.map((tag, i) => (
+                  <button key={i} className='p-3 rounded-md bg-slate-100 text-blue-950  hover:bg-blue-700 hover:text-white'>{ tag}</button>
+                ))
+              }
+            </div>
+            <div className="w-full pt-5">
+              <h1 className='text-xl font-semibold'>Comments</h1>
+              {
+                currentData?.comments?.map((comment, i) => (
+                  <div key={i} className="">
+                    <div className="flex gap-2 items-start">
+                      <img src={comment?.userPHoto} alt="" />
+                      <div className="">
+                        <p>{comment?.comment}</p>
+                        <h2>{comment?.name}</h2>
+                        <p>{  comment?.date}</p>
+                      </div>
+                    </div>
+                </div>
+                ))
+              }
+            </div>
           </div>
-          </div></div>
+          <div className="w-full px-[1%] lg:px-5 md:col-span-1 ">
+            <BlogPageRight/>
+          </div>
+        </div >
+      </div>
       
     </div>
   );

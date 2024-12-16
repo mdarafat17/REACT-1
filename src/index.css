@@ -124,3 +124,25 @@
 .slick-prev{
   display: none !important;
 }
+
+.content-img{
+  display: flex;
+  gap: 20px;
+  width: 100%;
+
+}
+.content-img img{
+
+  width: 50%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.high-light{
+  display: flex;
+  gap: 20px;
+  background-image: linear-gradient( 45deg ,#e5e7fe, #fdfdfe);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}

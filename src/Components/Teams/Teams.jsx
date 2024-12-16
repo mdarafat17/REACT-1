@@ -2,6 +2,7 @@ import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import './teams.css'
 import { FaXTwitter } from "react-icons/fa6";
+import DownBanner from "../Services/DownBanner/DownBanner";
 
 
 const Teams = () => {
@@ -90,7 +91,9 @@ const Teams = () => {
             ))
           }
         </div>
+       
       </div>
+       <DownBanner/>
     </div>
   );
 };

@@ -2,6 +2,7 @@ import React from 'react';
 import { FaAngleRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import AwesomeServices from './AwesomeServices';
+import DownBanner from './DownBanner/DownBanner';
 
 
 
@@ -72,6 +73,7 @@ const Services = () => {
         <AwesomeServices/>
         </div>
       </div>
+      <DownBanner/>
     </div>
   );
 };

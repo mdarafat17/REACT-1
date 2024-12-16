@@ -3,6 +3,7 @@ import { FaAngleRight } from 'react-icons/fa';
 import { FaArrowRightLong } from 'react-icons/fa6';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 import { Link } from 'react-router-dom';
+import BlogPageRight from './BlogPageRight';
 
 const Blogs = () => {
   // titel er name change korar jonno 
@@ -47,8 +48,8 @@ const Blogs = () => {
         </div>
       </div>
     </div>
-      <div className="container mx-auto px-[1%] lg:px-24 py-12">
-        <div className="w-full grid grid-cols-1 md:grid-cols-3">
+      <div className="container mx-auto px-[1%] lg:px-24 py-12 ">
+        <div className="w-full grid grid-cols-1 md:grid-cols-3  ">
           <div className="w-full md:col-span-2">
             {
               // currentIndex aita oi carosol er jonno dilam 
@@ -86,7 +87,7 @@ const Blogs = () => {
                 Array.from({ length: Math.ceil(blogsData?.length / dividedData) }, (_, number) => (
                   <button key={number}
                     onClick={() => setCurrentData( number + 1)}
-                    className={`bg-[#585b6f86] p-5 rounded-lg transition-all duration-300 hover:bg-[#2b4dff] text-black hover:text-white  w-16 h-16 ${currentData == (number + 1) && "bg-[#2b4dff] text-white"} `}  >
+                    className={`p-5 rounded-lg transition-all duration-300 hover:bg-[#2b4dff] text-black hover:text-white  w-16 h-16 ${currentData == (number + 1) ? "bg-[#2b4dff] text-white" : "bg-[#585b6f49]"} `}  >
                 
                     {number + 1}
 
@@ -104,7 +105,11 @@ const Blogs = () => {
               </button>
             </div>
           </div>
-          <div className="w-full md:col-span-1"></div>
+          <div className="w-full px-[1%] lg:px-5 md:col-span-1 ">
+            <BlogPageRight/>
+
+
+          </div>
         </div>
       </div>
     </div>
