@@ -1,0 +1,316 @@
+[
+  {
+    "id":1,
+   
+    "photo": "/assets/p1.png",
+    "name": "Digital Product Design",
+    "designation": "Design, Graphics",
+    "bg-photo": "/assets/cover-pro.webp",
+    "discription": {
+      "overview": "A content management system helps you create, manage, and publish content on the web. It also keep content organized and accessible so it can be used and repurposed effectively. There are various kinds of content management systems available—from cloud-based to a headless CMS provides user-friendly features for easy editing and is compatible with installing plugins and tools that provide even more features for advanced functions. API CMS’s are built to have an excellent user-friendly interface that is easy to use." ,
+      
+      "project":"A content management system (CMS) is an application that is used to manage content, allowing multiple contributors to create, edit and publish. Content in a CMS is typically stored in a database and displayed in a presentation layer based on a set of templates like a website.",
+      "photo1": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fp1%2Fp1.png&w=1920&q=75",
+      "photo2": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fp1%2Fp2.png&w=1920&q=75",
+
+      "last": "CMS provides user-friendly features for easy editing and is compatible with installing plugins and tools that provide even more features for advanced functions. API CMS’s are built to have an excellent user-friendly interface that is easy to use.",
+
+      "Feature": [
+      "Creating and editing content",
+      "Workflows, reporting, and content organization",
+      "User & role-based administration and security",
+      "Flexibility, scalability, and performance and analysis",
+      "Multilingual content capabilities"
+    ],
+
+    "Final": " Having a content management system for your website allows you to have control of your content. It means having the ability to update, change or delete any images, text, video, or audio. It allows you to keep your site organized, up to date and looking."
+
+    }
+    
+
+  },
+  
+  {
+    "id":2,
+   
+    "photo": "/assets/p1.png",
+    "name": "Digital Product Design",
+    "designation": "Design, Graphics",
+    "bg-photo": "/assets/cover-pro.webp",
+    "discription": {
+      "overview": "A content management system helps you create, manage, and publish content on the web. It also keep content organized and accessible so it can be used and repurposed effectively. There are various kinds of content management systems available—from cloud-based to a headless CMS provides user-friendly features for easy editing and is compatible with installing plugins and tools that provide even more features for advanced functions. API CMS’s are built to have an excellent user-friendly interface that is easy to use." ,
+      
+      "project":"A content management system (CMS) is an application that is used to manage content, allowing multiple contributors to create, edit and publish. Content in a CMS is typically stored in a database and displayed in a presentation layer based on a set of templates like a website.",
+      "photo1": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fp1%2Fp1.png&w=1920&q=75",
+      "photo2": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fp1%2Fp2.png&w=1920&q=75",
+
+      "last": "CMS provides user-friendly features for easy editing and is compatible with installing plugins and tools that provide even more features for advanced functions. API CMS’s are built to have an excellent user-friendly interface that is easy to use.",
+
+      "Feature": [
+      "Creating and editing content",
+      "Workflows, reporting, and content organization",
+      "User & role-based administration and security",
+      "Flexibility, scalability, and performance and analysis",
+      "Multilingual content capabilities"
+    ],
+
+    "Final": " Having a content management system for your website allows you to have control of your content. It means having the ability to update, change or delete any images, text, video, or audio. It allows you to keep your site organized, up to date and looking."
+
+    }
+    
+
+  },
+  
+  {
+    "id":3,
+   
+    "photo": "/assets/p1.png",
+    "name": "Digital Product Design",
+    "designation": "Design, Graphics",
+    "bg-photo": "/assets/cover-pro.webp",
+    "discription": {
+      "overview": "A content management system helps you create, manage, and publish content on the web. It also keep content organized and accessible so it can be used and repurposed effectively. There are various kinds of content management systems available—from cloud-based to a headless CMS provides user-friendly features for easy editing and is compatible with installing plugins and tools that provide even more features for advanced functions. API CMS’s are built to have an excellent user-friendly interface that is easy to use." ,
+      
+      "project":"A content management system (CMS) is an application that is used to manage content, allowing multiple contributors to create, edit and publish. Content in a CMS is typically stored in a database and displayed in a presentation layer based on a set of templates like a website.",
+      "photo1": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fp1%2Fp1.png&w=1920&q=75",
+      "photo2": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fp1%2Fp2.png&w=1920&q=75",
+
+      "last": "CMS provides user-friendly features for easy editing and is compatible with installing plugins and tools that provide even more features for advanced functions. API CMS’s are built to have an excellent user-friendly interface that is easy to use.",
+
+      "Feature": [
+      "Creating and editing content",
+      "Workflows, reporting, and content organization",
+      "User & role-based administration and security",
+      "Flexibility, scalability, and performance and analysis",
+      "Multilingual content capabilities"
+    ],
+
+    "Final": " Having a content management system for your website allows you to have control of your content. It means having the ability to update, change or delete any images, text, video, or audio. It allows you to keep your site organized, up to date and looking."
+
+    }
+    
+
+  },
+  
+  {
+    "id":4,
+   
+    "photo": "/assets/p1.png",
+    "name": "Digital Product Design",
+    "designation": "Design, Graphics",
+    "bg-photo": "/assets/cover-pro.webp",
+    "discription": {
+      "overview": "A content management system helps you create, manage, and publish content on the web. It also keep content organized and accessible so it can be used and repurposed effectively. There are various kinds of content management systems available—from cloud-based to a headless CMS provides user-friendly features for easy editing and is compatible with installing plugins and tools that provide even more features for advanced functions. API CMS’s are built to have an excellent user-friendly interface that is easy to use." ,
+      
+      "project":"A content management system (CMS) is an application that is used to manage content, allowing multiple contributors to create, edit and publish. Content in a CMS is typically stored in a database and displayed in a presentation layer based on a set of templates like a website.",
+      "photo1": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fp1%2Fp1.png&w=1920&q=75",
+      "photo2": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fp1%2Fp2.png&w=1920&q=75",
+
+      "last": "CMS provides user-friendly features for easy editing and is compatible with installing plugins and tools that provide even more features for advanced functions. API CMS’s are built to have an excellent user-friendly interface that is easy to use.",
+
+      "Feature": [
+      "Creating and editing content",
+      "Workflows, reporting, and content organization",
+      "User & role-based administration and security",
+      "Flexibility, scalability, and performance and analysis",
+      "Multilingual content capabilities"
+    ],
+
+    "Final": " Having a content management system for your website allows you to have control of your content. It means having the ability to update, change or delete any images, text, video, or audio. It allows you to keep your site organized, up to date and looking."
+
+    }
+    
+
+  },
+  
+  {
+    "id":5,
+   
+    "photo": "/assets/p1.png",
+    "name": "Digital Product Design",
+    "designation": "Design, Graphics",
+    "bg-photo": "/assets/cover-pro.webp",
+    "discription": {
+      "overview": "A content management system helps you create, manage, and publish content on the web. It also keep content organized and accessible so it can be used and repurposed effectively. There are various kinds of content management systems available—from cloud-based to a headless CMS provides user-friendly features for easy editing and is compatible with installing plugins and tools that provide even more features for advanced functions. API CMS’s are built to have an excellent user-friendly interface that is easy to use." ,
+      
+      "project":"A content management system (CMS) is an application that is used to manage content, allowing multiple contributors to create, edit and publish. Content in a CMS is typically stored in a database and displayed in a presentation layer based on a set of templates like a website.",
+      "photo1": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fp1%2Fp1.png&w=1920&q=75",
+      "photo2": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fp1%2Fp2.png&w=1920&q=75",
+
+      "last": "CMS provides user-friendly features for easy editing and is compatible with installing plugins and tools that provide even more features for advanced functions. API CMS’s are built to have an excellent user-friendly interface that is easy to use.",
+
+      "Feature": [
+      "Creating and editing content",
+      "Workflows, reporting, and content organization",
+      "User & role-based administration and security",
+      "Flexibility, scalability, and performance and analysis",
+      "Multilingual content capabilities"
+    ],
+
+    "Final": " Having a content management system for your website allows you to have control of your content. It means having the ability to update, change or delete any images, text, video, or audio. It allows you to keep your site organized, up to date and looking."
+
+    }
+    
+
+  },
+  
+  {
+    "id":6,
+   
+    "photo": "/assets/p1.png",
+    "name": "Digital Product Design",
+    "designation": "Design, Graphics",
+    "bg-photo": "/assets/cover-pro.webp",
+    "discription": {
+      "overview": "A content management system helps you create, manage, and publish content on the web. It also keep content organized and accessible so it can be used and repurposed effectively. There are various kinds of content management systems available—from cloud-based to a headless CMS provides user-friendly features for easy editing and is compatible with installing plugins and tools that provide even more features for advanced functions. API CMS’s are built to have an excellent user-friendly interface that is easy to use." ,
+      
+      "project":"A content management system (CMS) is an application that is used to manage content, allowing multiple contributors to create, edit and publish. Content in a CMS is typically stored in a database and displayed in a presentation layer based on a set of templates like a website.",
+      "photo1": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fp1%2Fp1.png&w=1920&q=75",
+      "photo2": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fp1%2Fp2.png&w=1920&q=75",
+
+      "last": "CMS provides user-friendly features for easy editing and is compatible with installing plugins and tools that provide even more features for advanced functions. API CMS’s are built to have an excellent user-friendly interface that is easy to use.",
+
+      "Feature": [
+      "Creating and editing content",
+      "Workflows, reporting, and content organization",
+      "User & role-based administration and security",
+      "Flexibility, scalability, and performance and analysis",
+      "Multilingual content capabilities"
+    ],
+
+    "Final": " Having a content management system for your website allows you to have control of your content. It means having the ability to update, change or delete any images, text, video, or audio. It allows you to keep your site organized, up to date and looking."
+
+    }
+    
+
+  },
+  
+  {
+    "id":7,
+   
+    "photo": "/assets/p1.png",
+    "name": "Digital Product Design",
+    "designation": "Design, Graphics",
+    "bg-photo": "/assets/cover-pro.webp",
+    "discription": {
+      "overview": "A content management system helps you create, manage, and publish content on the web. It also keep content organized and accessible so it can be used and repurposed effectively. There are various kinds of content management systems available—from cloud-based to a headless CMS provides user-friendly features for easy editing and is compatible with installing plugins and tools that provide even more features for advanced functions. API CMS’s are built to have an excellent user-friendly interface that is easy to use." ,
+      
+      "project":"A content management system (CMS) is an application that is used to manage content, allowing multiple contributors to create, edit and publish. Content in a CMS is typically stored in a database and displayed in a presentation layer based on a set of templates like a website.",
+      "photo1": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fp1%2Fp1.png&w=1920&q=75",
+      "photo2": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fp1%2Fp2.png&w=1920&q=75",
+
+      "last": "CMS provides user-friendly features for easy editing and is compatible with installing plugins and tools that provide even more features for advanced functions. API CMS’s are built to have an excellent user-friendly interface that is easy to use.",
+
+      "Feature": [
+      "Creating and editing content",
+      "Workflows, reporting, and content organization",
+      "User & role-based administration and security",
+      "Flexibility, scalability, and performance and analysis",
+      "Multilingual content capabilities"
+    ],
+
+    "Final": " Having a content management system for your website allows you to have control of your content. It means having the ability to update, change or delete any images, text, video, or audio. It allows you to keep your site organized, up to date and looking."
+
+    }
+    
+
+  },
+  
+  {
+    "id":8,
+   
+    "photo": "/assets/p1.png",
+    "name": "Digital Product Design",
+    "designation": "Design, Graphics",
+    "bg-photo": "/assets/cover-pro.webp",
+    "discription": {
+      "overview": "A content management system helps you create, manage, and publish content on the web. It also keep content organized and accessible so it can be used and repurposed effectively. There are various kinds of content management systems available—from cloud-based to a headless CMS provides user-friendly features for easy editing and is compatible with installing plugins and tools that provide even more features for advanced functions. API CMS’s are built to have an excellent user-friendly interface that is easy to use." ,
+      
+      "project":"A content management system (CMS) is an application that is used to manage content, allowing multiple contributors to create, edit and publish. Content in a CMS is typically stored in a database and displayed in a presentation layer based on a set of templates like a website.",
+      "photo1": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fp1%2Fp1.png&w=1920&q=75",
+      "photo2": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fp1%2Fp2.png&w=1920&q=75",
+
+      "last": "CMS provides user-friendly features for easy editing and is compatible with installing plugins and tools that provide even more features for advanced functions. API CMS’s are built to have an excellent user-friendly interface that is easy to use.",
+
+      "Feature": [
+      "Creating and editing content",
+      "Workflows, reporting, and content organization",
+      "User & role-based administration and security",
+      "Flexibility, scalability, and performance and analysis",
+      "Multilingual content capabilities"
+    ],
+
+    "Final": " Having a content management system for your website allows you to have control of your content. It means having the ability to update, change or delete any images, text, video, or audio. It allows you to keep your site organized, up to date and looking."
+
+    }
+    
+
+  },
+  
+  {
+    "id":9,
+   
+    "photo": "/assets/p1.png",
+    "name": "Digital Product Design",
+    "designation": "Design, Graphics",
+    "bg-photo": "/assets/cover-pro.webp",
+    "discription": {
+      "overview": "A content management system helps you create, manage, and publish content on the web. It also keep content organized and accessible so it can be used and repurposed effectively. There are various kinds of content management systems available—from cloud-based to a headless CMS provides user-friendly features for easy editing and is compatible with installing plugins and tools that provide even more features for advanced functions. API CMS’s are built to have an excellent user-friendly interface that is easy to use." ,
+      
+      "project":"A content management system (CMS) is an application that is used to manage content, allowing multiple contributors to create, edit and publish. Content in a CMS is typically stored in a database and displayed in a presentation layer based on a set of templates like a website.",
+      "photo1": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fp1%2Fp1.png&w=1920&q=75",
+      "photo2": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fp1%2Fp2.png&w=1920&q=75",
+
+      "last": "CMS provides user-friendly features for easy editing and is compatible with installing plugins and tools that provide even more features for advanced functions. API CMS’s are built to have an excellent user-friendly interface that is easy to use.",
+
+      "Feature": [
+      "Creating and editing content",
+      "Workflows, reporting, and content organization",
+      "User & role-based administration and security",
+      "Flexibility, scalability, and performance and analysis",
+      "Multilingual content capabilities"
+    ],
+
+    "Final": " Having a content management system for your website allows you to have control of your content. It means having the ability to update, change or delete any images, text, video, or audio. It allows you to keep your site organized, up to date and looking."
+
+    }
+    
+
+  },
+  
+  {
+    "id":10,
+   
+    "photo": "/assets/p1.png",
+    "name": "Digital Product Design",
+    "designation": "Design, Graphics",
+    "bg-photo": "/assets/cover-pro.webp",
+    "discription": {
+      "overview": "A content management system helps you create, manage, and publish content on the web. It also keep content organized and accessible so it can be used and repurposed effectively. There are various kinds of content management systems available—from cloud-based to a headless CMS provides user-friendly features for easy editing and is compatible with installing plugins and tools that provide even more features for advanced functions. API CMS’s are built to have an excellent user-friendly interface that is easy to use." ,
+      
+      "project":"A content management system (CMS) is an application that is used to manage content, allowing multiple contributors to create, edit and publish. Content in a CMS is typically stored in a database and displayed in a presentation layer based on a set of templates like a website.",
+      "photo1": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fp1%2Fp1.png&w=1920&q=75",
+      "photo2": "https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fp1%2Fp2.png&w=1920&q=75",
+
+      "last": "CMS provides user-friendly features for easy editing and is compatible with installing plugins and tools that provide even more features for advanced functions. API CMS’s are built to have an excellent user-friendly interface that is easy to use.",
+
+      "Feature": [
+      "Creating and editing content",
+      "Workflows, reporting, and content organization",
+      "User & role-based administration and security",
+      "Flexibility, scalability, and performance and analysis",
+      "Multilingual content capabilities"
+    ],
+
+    "Final": " Having a content management system for your website allows you to have control of your content. It means having the ability to update, change or delete any images, text, video, or audio. It allows you to keep your site organized, up to date and looking."
+
+    }
+    
+
+  }
+  
+  
+
+
+
+]

@@ -11,6 +11,7 @@ import TeamPage from "../Components/TeamPage/TeamPage";
 import TeamDetails from "../Components/TeamPage/TeamDetails/TeamDetails";
 import Blogs from "../Components/Blog/Blogs";
 import BlogsDetails from "../Components/Blog/BlogsDetails";
+import Potfoliyo from "../Components/Potfoliyo/Portfolio ";
 
 
 const router = createBrowserRouter([
@@ -80,6 +81,13 @@ const router = createBrowserRouter([
         element: <BlogsDetails />
 
       },
+      {
+        path: '/portfolio',
+        element: <Potfoliyo />
+
+      },
+      
+      
 
     ]
   }
