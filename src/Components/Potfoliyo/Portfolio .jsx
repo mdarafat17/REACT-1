@@ -51,11 +51,11 @@ const Portfolio = () => {
       
 
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1 p-[1%] justify-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-0  p-[1%] justify-center">
   {currentIndex && currentIndex?.map((portfolio, i) => (
     <div 
       key={i} 
-      className="relative w-[400px] h-[400px] rounded-lg overflow-hidden my-5 hover:shadow-lg border group">
+      className="relative w-[400px] h-[400px] rounded-lg overflow-hidden my-2 hover:shadow-lg border group mx-auto ">
 
       {/* Background image container */}
       <div className="w-full h-full overflow-hidden">
@@ -84,6 +84,7 @@ const Portfolio = () => {
     </div>
   ))}
 </div>
+
 
 
 

@@ -1,6 +1,7 @@
 import { RiMailFill } from "react-icons/ri";
 import { TiLocation } from "react-icons/ti";
 import { Link } from "react-router-dom";
+import MContact from "../../../public/MContact";
 
 
 const ShortContact = () => {
@@ -41,7 +42,7 @@ const ShortContact = () => {
             <p className="pt-5 text-slate-500">Office Hours: Mon – Sat: 8:00 AM – 10:00 PM</p>
           </div>
           
-            <div className=" pt-5 md:pt-0"><MContact/></div>
+            <div className=" pt-5 md:pt-0"> <MContact/></div>
           
 
         </div>
