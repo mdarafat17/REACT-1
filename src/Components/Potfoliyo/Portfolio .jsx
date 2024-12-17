@@ -1,131 +1,96 @@
 import React from 'react';
 import { FaAngleRight } from 'react-icons/fa';
+import { FaArrowRightLong } from 'react-icons/fa6';
 import { MdOutlineArrowOutward } from 'react-icons/md';
 import { Link } from 'react-router-dom';
+import './Portfolio.css';
 
-const Potfoliyo = () => {
+const Portfolio = () => {
+  // titel er name change korar jonno 
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+    document.title = "Portfolio"
+  }, [])
+  
+  const [portfolioData, setportfolioData] = React.useState();
+  React.useEffect(() => {
+
+    fetch("/Portfoliyo.json")
+      .then(res => res.json())
+      .then(data => setportfolioData(data))
+    
+  },[])
+
+// ata onekta post er carosol set koar moto 
+  const [currentData, setCurrentData] = React.useState(1);
+  const dividedData = 9;
+  // ai 2 er mane hocche ami akta page a koyta kore data dekhate caichi . 
+  const lastIndex = currentData * dividedData;
+  const firstIndex = lastIndex - dividedData;
+  const currentIndex = portfolioData?.slice(firstIndex, lastIndex);
+  console.log(currentIndex);
+
   return (
     <div>
-
       <div className=" w-auto  pt-[100px] bg-[url('/public/assets/aboutUs.png')] bg-cover  sm:pt-[150px] lg:pt-[230px] pb-[100px] md:-pl-[10px] pl-[0px]   ">
     
 
       
 
       <div className="text-center">
-        <h1 className="text-6xl lg:text-8xl  text-white font-bold mt-[30px] 	">Our Team</h1>
+        <h1 className="text-6xl lg:text-8xl  text-white font-bold mt-[30px] 	">Portfolio</h1>
         <div className=" flex items-center justify-center text-white pt-[20px] text-lg gap-2 mb-[10px]">
           
           <Link to={'/'}>Home</Link>
           <FaAngleRight />
-          <Link to={Potfoliyo}>Our Team</Link>
+          <Link to={Portfolio}>Portfolio</Link>
 
         </div>
-        </div>
+      </div>
       </div>
       
 
-      <div className="flex flex-wrap gap-3 justify-center">
-          <Link to={`#`} className="block overflow-hidden bg-[url(https://optechanimation1.netlify.app/assets/images/p1/p1.png)] project-card bg-no-repeat bg-center relative w-[300px] lg:w-[400px] h-[300px] lg:h-[400px] rounded-lg transition-all duration-300">
-            
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-blue-950 hover:from-blue-700 to-transparent py-5 z-[2]">
-               <span className="text-white font-bold text-center block text-2xl">Digital Product Design</span>
-            <span className="text-white/50 font-semibold text-center block text-md">Design, Graphics</span>
-            </div>
-            <div className="w-full h-full bg-gradient-to-t  from-blue-700 to-transparent absolute left-0 right-0  flex items-center justify-center project-card-deteils transition-all duration-500">
-              <button className="w-[60px] h-[60px] bg-white rounded-md flex items-center justify-center">
-                <MdOutlineArrowOutward className="size-7 text-blue-700 " />
-              </button>
 
-            </div>
-          
-            
-          </Link>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1 p-[1%] justify-center">
+  {currentIndex && currentIndex?.map((portfolio, i) => (
+    <div 
+      key={i} 
+      className="relative w-[400px] h-[400px] rounded-lg overflow-hidden my-5 hover:shadow-lg border group">
 
-          <Link to={`#`} className="block overflow-hidden bg-[url(https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fp1%2Fp2.png&w=1920&q=75)] project-card bg-no-repeat bg-center relative w-[300px] lg:w-[400px] h-[300px] lg:h-[400px] rounded-lg transition-all duration-300">
-            
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-blue-950 hover:from-blue-700 to-transparent py-5 z-[2]">
-               <span className="text-white font-bold text-center block text-2xl"> Cyber Security Analysis</span>
-            <span className="text-white/50 font-semibold text-center block text-md">Security, Technology</span>
-            </div>
-            <div className="w-full h-full bg-gradient-to-t  from-blue-700 to-transparent absolute left-0 right-0  flex items-center justify-center project-card-deteils transition-all duration-500">
-              <button className="w-[60px] h-[60px] bg-white rounded-md flex items-center justify-center">
-                <MdOutlineArrowOutward className="size-7 text-blue-700 " />
-              </button>
+      {/* Background image container */}
+      <div className="w-full h-full overflow-hidden">
+        <img 
+          className='w-full h-full object-cover hover:scale-110 transition-transform duration-300' 
+          src={portfolio?.photo} 
+          alt="" 
+        />
+        {/* Gradient overlay */}
+        <div 
+          className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-500/50 to-blue-500/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+        ></div>
+      </div>
 
-            </div>
-          
-            
-          </Link>
+      {/* Text over image */}
+      <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-center text-white z-[5]">
+        <h2 className="text-xl font-bold mb-2">{portfolio?.name}</h2>
+        <p className="text-md mb-10">{portfolio?.designation}</p>
 
-          <Link to={`#`} className="block overflow-hidden bg-[url(https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fp1%2Fp3.png&w=1920&q=75)] project-card bg-no-repeat bg-center relative w-[300px] lg:w-[400px] h-[300px] lg:h-[400px] rounded-lg transition-all duration-300">
-            
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-blue-950 hover:from-blue-700 to-transparent py-5 z-[2]">
-               <span className="text-white font-bold text-center block text-2xl"> Health App Development</span>
-            <span className="text-white/50 font-semibold text-center block text-md">Development, Software</span>
-            </div>
-            <div className="w-full h-full bg-gradient-to-t  from-blue-700 to-transparent absolute left-0 right-0  flex items-center justify-center project-card-deteils transition-all duration-500">
-              <button className="w-[60px] h-[60px] bg-white rounded-md flex items-center justify-center">
-                <MdOutlineArrowOutward className="size-7 text-blue-700 " />
-              </button>
+        {/* Button */}
+        <Link to={`/portfoliyo-details/${portfolio.id}`}
+          className="w-[60px] h-[60px] bg-white rounded-md flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-10 group-hover:translate-y-0">
+          <MdOutlineArrowOutward className="text-blue-700 size-7" />
+        </Link>
+      </div>
+    </div>
+  ))}
+</div>
 
-            </div>
-          
-            
-          </Link>
 
-           <Link to={`#`} className="block overflow-hidden bg-[url(https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fp1%2Fp4.png&w=1920&q=75)] project-card bg-no-repeat bg-center relative w-[300px] lg:w-[400px] h-[300px] lg:h-[400px] rounded-lg transition-all duration-300">
-            
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-blue-950 hover:from-blue-700 to-transparent py-5 z-[2]">
-               <span className="text-white font-bold text-center block text-2xl"> Health App Development</span>
-            <span className="text-white/50 font-semibold text-center block text-md">Development, Software</span>
-            </div>
-            <div className="w-full h-full bg-gradient-to-t  from-blue-700 to-transparent absolute left-0 right-0  flex items-center justify-center project-card-deteils transition-all duration-500">
-              <button className="w-[60px] h-[60px] bg-white rounded-md flex items-center justify-center">
-                <MdOutlineArrowOutward className="size-7 text-blue-700 " />
-              </button>
 
-            </div>
-          
-            
-          </Link>
-           <Link to={`#`} className="block overflow-hidden bg-[url(https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fp1%2Fp4.png&w=1920&q=75)] project-card bg-no-repeat bg-center relative w-[300px] lg:w-[400px] h-[300px] lg:h-[400px] rounded-lg transition-all duration-300">
-            
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-blue-950 hover:from-blue-700 to-transparent py-5 z-[2]">
-               <span className="text-white font-bold text-center block text-2xl"> Health App Development</span>
-            <span className="text-white/50 font-semibold text-center block text-md">Development, Software</span>
-            </div>
-            <div className="w-full h-full bg-gradient-to-t  from-blue-700 to-transparent absolute left-0 right-0  flex items-center justify-center project-card-deteils transition-all duration-500">
-              <button className="w-[60px] h-[60px] bg-white rounded-md flex items-center justify-center">
-                <MdOutlineArrowOutward className="size-7 text-blue-700 " />
-              </button>
 
-            </div>
-          
-            
-          </Link>
-           <Link to={`#`} className="block overflow-hidden bg-[url(https://optech-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fp1%2Fp4.png&w=1920&q=75)] project-card bg-no-repeat bg-center relative w-[300px] lg:w-[400px] h-[300px] lg:h-[400px] rounded-lg transition-all duration-300">
-            
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-blue-950 hover:from-blue-700 to-transparent py-5 z-[2]">
-               <span className="text-white font-bold text-center block text-2xl"> Health App Development</span>
-            <span className="text-white/50 font-semibold text-center block text-md">Development, Software</span>
-            </div>
-            <div className="w-full h-full bg-gradient-to-t  from-blue-700 to-transparent absolute left-0 right-0  flex items-center justify-center project-card-deteils transition-all duration-500">
-              <button className="w-[60px] h-[60px] bg-white rounded-md flex items-center justify-center">
-                <MdOutlineArrowOutward className="size-7 text-blue-700 " />
-              </button>
-
-            </div>
-          
-            
-          </Link>
-
-         
-          
-        </div>
- 
     </div>
   );
 };
 
-export default Potfoliyo;
+
+export default Portfolio;
