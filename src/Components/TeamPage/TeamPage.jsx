@@ -40,7 +40,7 @@ const TeamPage = () => {
             teamsData?.map((team, i) => (
               <div key={i} className="w-full sm:w-[300px] bg-white rounded-xl overflow-hidden relative team-card border hover:shadow-lg hover:border-transparent transition-all duration-300">
                 
-                <div className="overflow-hidden relative"><img className="w-full object-cover h-[300px] hover:scale-110 scale-100 transition-all duration-120 " src={team?.photo} alt="" />
+                <div className="overflow-hidden relative"><img className="w-full object-cover h-[300px] hover:scale-110 scale-100 transition-all duration-300 " src={team?.photo} alt="" />
                 </div>
 
                 <div className="bg-white w-full py-5 px-3">

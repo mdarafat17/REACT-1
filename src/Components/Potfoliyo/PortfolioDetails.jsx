@@ -45,17 +45,21 @@ const PortfolioDetails = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-[1%] lg:px-24 py-12">
+
+
+
+      <div className="container mx-auto px-[1%] lg:px-24 py-12 ">
         <img src={currentData?.photo0} alt="Portfolio" className="w-full h-auto" />
-        <div className="w-full grid grid-cols-1 md:grid-cols-3 ">
+
+        <div className="w-full grid grid-cols-1 md:grid-cols-3 sm:px-2 md:px-3 xl:px-0">
           <div className="w-full md:col-span-2">
             {/* Display photo1 */}
             
 
 
-            <div className="w-full">
+            {/* <div className="w-full">
               {parse(`${currentData?.content}`)} 
-            </div>
+            </div> */}
             {/* Overview, Project, Features, Final content */}
             <div className="pt-5 text-blue-900">
               <h2 className="text-2xl font-semibold">Project overview</h2>

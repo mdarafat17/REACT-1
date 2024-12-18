@@ -49,43 +49,67 @@ const Portfolio = () => {
       </div>
       </div>
       
+<div className="flex flex-wrap gap-3 justify-center">
+        {currentIndex && currentIndex?.map((portfolio, i) => (
+     
+          //       <div key={i} className="grid grid-cols-3 gap-3  h-[300px] w-[300px]">
 
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-0  p-[1%] justify-center">
-  {currentIndex && currentIndex?.map((portfolio, i) => (
-    <div 
-      key={i} 
-      className="relative w-[400px] h-[400px] rounded-lg overflow-hidden my-2 hover:shadow-lg border group mx-auto ">
+         
+    
+          //         <div 
+       
+          //   className="relative w-full h-auto  rounded-lg overflow-hidden my-2 hover:shadow-lg border    ">
 
-      {/* Background image container */}
-      <div className="w-full h-full overflow-hidden">
-        <img 
-          className='w-full h-full object-cover hover:scale-110 transition-transform duration-300' 
-          src={portfolio?.photo} 
-          alt="" 
-        />
-        {/* Gradient overlay */}
-        <div 
-          className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-500/50 to-blue-500/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-        ></div>
+          //   {/* Background image container */}
+          //   <div className="w-full  overflow-hidden">
+          //     <img 
+          //       className='w-full h-auto object-cover hover:scale-110 transition-transform duration-300' 
+          //       src={portfolio?.photo} 
+          //       alt="" 
+          //     />
+          //     {/* Gradient overlay */}
+          //     <div 
+          //       className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-500/50 to-blue-500/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          //     ></div>
+          //   </div>
+
+          //   {/* Text over image */}
+          //   <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-center text-white z-[5]">
+          //     <h2 className="text-xl font-bold mb-2">{portfolio?.name}</h2>
+          //     <p className="text-md mb-10">{portfolio?.designation}</p>
+
+          //     {/* Button */}
+          //     <Link to={`/portfoliyo-details/${portfolio.id}`}
+          //       className="w-[60px] h-[60px] bg-white rounded-md flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-10 group-hover:translate-y-0">
+          //       <MdOutlineArrowOutward className="text-blue-700 size-7" />
+          //     </Link>
+          //   </div>
+          // </div>
+  
+
+          //       </div>
+    
+    
+          <Link  key={i} to={`/portfoliyo-details/${portfolio?.id}`}  className={`block overflow-hidden  bg-[url(${portfolio?.photo})] project-card bg-no-repeat bg-center relative w-[300px] lg:w-[400px] h-[300px] lg:h-[400px] rounded-lg transition-all duration-300`}>
+            
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-blue-950 hover:from-blue-700 to-transparent py-5 z-[2]">
+               <span className="text-white font-bold text-center block text-2xl">{portfolio?.name}</span>
+            <span className="text-white/50 font-semibold text-center block text-md">{portfolio?.designation}</span>
+            </div>
+
+            <div className="w-full h-full bg-gradient-to-t  from-blue-700 to-transparent absolute left-0 right-0  flex items-center justify-center project-card-deteils transition-all duration-500">
+              <button to={`/portfoliyo-details/${portfolio.id}`} className="w-[60px] h-[60px] bg-white rounded-md flex items-center justify-center"> 
+                <MdOutlineArrowOutward className="size-7 text-blue-700 " />
+              </button>
+
+            </div>
+           </Link>
+         
+
+        ))}
+
       </div>
-
-      {/* Text over image */}
-      <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-center text-white z-[5]">
-        <h2 className="text-xl font-bold mb-2">{portfolio?.name}</h2>
-        <p className="text-md mb-10">{portfolio?.designation}</p>
-
-        {/* Button */}
-        <Link to={`/portfoliyo-details/${portfolio.id}`}
-          className="w-[60px] h-[60px] bg-white rounded-md flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-10 group-hover:translate-y-0">
-          <MdOutlineArrowOutward className="text-blue-700 size-7" />
-        </Link>
-      </div>
-    </div>
-  ))}
-</div>
-
-
 
 
 
