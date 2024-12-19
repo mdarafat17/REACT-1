@@ -15,3 +15,18 @@
   top: 0;
 
 }
+
+
+
+  @media (min-width: 768px) and (max-width: 1279px) {
+    .move-to-bottom {
+      grid-column: 1 / -1; /* পুরো প্রস্থে নিয়ে আসবে */
+    }
+  }
+
+  @media (max-width: 639px) {
+    .add-padding {
+      padding-left: 3px;
+      padding-right: 3px;
+    }
+  }

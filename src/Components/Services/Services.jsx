@@ -8,6 +8,11 @@ import DownBanner from './DownBanner/DownBanner';
 
 const Services = () => {
 
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+    document.title = "Services"
+  }, [])
+
   const ourservice = [
     {
       title: "Initiation & Planning",

@@ -4,6 +4,9 @@ import { Link, useLocation } from "react-router-dom";
 import parse from 'html-react-parser';
 import { FaXTwitter } from "react-icons/fa6";
 import { SlEarphonesAlt } from "react-icons/sl";
+import './Portfolio.css';
+
+
 
 const PortfolioDetails = () => {
   // Update title and scroll to top
@@ -29,6 +32,8 @@ const PortfolioDetails = () => {
 
   // Find current data based on the URL parameter
   const currentData = portfoliyosData ? portfoliyosData.find(data => data.id == dataId) : null;
+
+  
 
   return (
     <div>
@@ -101,7 +106,7 @@ const PortfolioDetails = () => {
             
           </div>
 {/* Right sidebar or additional content */}
-          <div className="w-full px-[1%] lg:px-5 md:col-span-1 mt-5 ">
+          <div className="w-full px-[1%] lg:px-5 md:col-span-1 mt-5 move-to-bottom add-padding   " >
 
 
         <div className="">    <div className=" bg-slate-200 px-5 py-7 rounded-lg ">

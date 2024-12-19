@@ -4,6 +4,7 @@ import { FaArrowRightLong } from 'react-icons/fa6';
 import { MdOutlineArrowOutward } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 import './Portfolio.css';
+import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 
 const Portfolio = () => {
   // titel er name change korar jonno 
@@ -49,49 +50,10 @@ const Portfolio = () => {
       </div>
       </div>
       
-<div className="flex flex-wrap gap-3 justify-center">
+<div className="flex flex-wrap gap-3 justify-center mt-[100px]">
         {currentIndex && currentIndex?.map((portfolio, i) => (
-     
-          //       <div key={i} className="grid grid-cols-3 gap-3  h-[300px] w-[300px]">
-
-
-         
-    
-          //         <div 
-       
-          //   className="relative w-full h-auto  rounded-lg overflow-hidden my-2 hover:shadow-lg border    ">
-
-          //   {/* Background image container */}
-          //   <div className="w-full  overflow-hidden">
-          //     <img 
-          //       className='w-full h-auto object-cover hover:scale-110 transition-transform duration-300' 
-          //       src={portfolio?.photo} 
-          //       alt="" 
-          //     />
-          //     {/* Gradient overlay */}
-          //     <div 
-          //       className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-500/50 to-blue-500/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-          //     ></div>
-          //   </div>
-
-          //   {/* Text over image */}
-          //   <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-center text-white z-[5]">
-          //     <h2 className="text-xl font-bold mb-2">{portfolio?.name}</h2>
-          //     <p className="text-md mb-10">{portfolio?.designation}</p>
-
-          //     {/* Button */}
-          //     <Link to={`/portfoliyo-details/${portfolio.id}`}
-          //       className="w-[60px] h-[60px] bg-white rounded-md flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-10 group-hover:translate-y-0">
-          //       <MdOutlineArrowOutward className="text-blue-700 size-7" />
-          //     </Link>
-          //   </div>
-          // </div>
-  
-
-          //       </div>
-    
-    
-          <Link  key={i} to={`/portfoliyo-details/${portfolio?.id}`}  className={`block overflow-hidden  bg-[url(${portfolio?.photo})] project-card bg-no-repeat bg-center relative w-[300px] lg:w-[400px] h-[300px] lg:h-[400px] rounded-lg transition-all duration-300`}>
+ 
+          <Link key={i} to={`/portfoliyo-details/${portfolio?.id}`} className={`block overflow-hidden   project-card bg-no-repeat bg-center relative w-[300px] lg:w-[400px] h-[300px] lg:h-[400px] rounded-lg transition-all duration-300`}style={{backgroundImage: `url(${portfolio?.photo})`}}>
             
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-blue-950 hover:from-blue-700 to-transparent py-5 z-[2]">
                <span className="text-white font-bold text-center block text-2xl">{portfolio?.name}</span>
@@ -109,9 +71,62 @@ const Portfolio = () => {
 
         ))}
 
+       
+
       </div>
+ <div className="py-12 flex items-center justify-center gap-2">
+                      <button
+                      
+                        onClick={() => setCurrentData(currentData - 1)}
+                        disabled={currentData == 1}
+                        className='bg-[#585b6f86] disabled:bg-[#585b6f] p-5 rounded-lg transition-all duration-300 hover:bg-[#2b4dff] text-black hover:text-white disabled:text-black w-16 h-16'  >
+                        <IoIosArrowBack className='size-5  ' />
+        
+                      </button>
+        
+                      {
+                        Array.from({ length: Math.ceil(portfolioData?.length / dividedData) }, (_, number) => (
+                          <button key={number}
+                            onClick={() => setCurrentData( number + 1)}
+                            className={`p-5 rounded-lg transition-all duration-300 hover:bg-[#2b4dff] text-black hover:text-white  w-16 h-16 ${currentData == (number + 1) ? "bg-[#2b4dff] text-white" : "bg-[#585b6f49]"} `}  >
+                        
+                            {number + 1}
+        
+                      
+                          </button>
+                        ))
+                      }
+        
+                      <button
+                       onClick={() => setCurrentData(currentData + 1)}
+                       disabled={currentData == Math.ceil(portfolioData?.length / dividedData)}
+                        className='bg-[#585b6f86] p-5 rounded-lg transition-all duration-300 hover:bg-[#2b4dff] text-black hover:text-white w-16 h-16  disabled:text-black disabled:bg-[#585b6f]'  >
+                        <IoIosArrowForward className='size-5  ' />
+        
+                      </button>
+                    </div>
+      <div className="mt-10">
+        <div className="w-auto  pt-[100px] bg-[url('/public/assets/down-cover-2.png')] bg-cover  sm:pt-[150px]  pb-[100px] md:-pl-[10px] pl-[0px]  items-center  ">
+      
+      <div className="text-center -pt-[20px] ">
+        <h1 className=" text-6xl text-white font-bold  pb-[25px] 	">Let’s work together
+        </h1>
+        <p className="text-white  ">Each demo built with Teba will look different. You can customize anything <br/> appearance of your website with only a few clicks
+        </p>
+          </div>
+          
 
+      <div className=" flex justify-center mt-[25px] pb-[30px] ">
+        <button className='btn btn-animation w-[150px] py-8 lg:w-[200px] bg-white text-blue-900 text-lg border-0 outline-none hover:bg-white'>
+                      <p className='animation-top2 w-[140px] lg:w-[200px] text-center'>Let’s Start a Project</p>
+                      <p className='animation-bottom2 w-[140px] lg:w-[200px] text-center'>Let’s Start a Project</p>
+            </button>
+      </div>
+      
+   
+        </div>
 
+      </div>
 
     </div>
   );

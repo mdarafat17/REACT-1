@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import Teams from "../Teams/Teams";
 import Banner from "./Banner/Banner";
 import Blog from "./Blog/Blog";
@@ -10,6 +10,12 @@ import ShortProjects from "./ShortProjects/ShortProjects";
 import ShortServices from "./ShortServices/ShortServices";
 
 const Home = () => {
+
+  React.useEffect(() => {
+      window.scrollTo(0, 0);
+      document.title = "Home"
+    }, [])
+
   useEffect(() => {
     window.scrollTo(0,0);
   })

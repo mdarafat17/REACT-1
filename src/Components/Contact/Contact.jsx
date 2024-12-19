@@ -3,9 +3,15 @@ import { RiMailFill } from "react-icons/ri";
 import { TiLocation } from "react-icons/ti";
 import { Link } from "react-router-dom";
 import MContact from "./MContact";
+import React from "react";
 
 
 const Contact = () => {
+
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+    document.title = "Contact Us"
+  }, [])
   return (
     <div>
       <div className=" w-auto  pt-[100px] bg-[url('/public/assets/aboutUs.png')] bg-cover  sm:pt-[150px] lg:pt-[230px] pb-[100px] md:-pl-[10px] pl-[0px]   ">

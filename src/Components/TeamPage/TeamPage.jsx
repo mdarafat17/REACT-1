@@ -6,6 +6,11 @@ import { FaAngleRight, FaFacebook, FaInstagram, FaLinkedinIn } from 'react-icons
 import { FaXTwitter } from 'react-icons/fa6';
 
 const TeamPage = () => {
+
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+    document.title = "Team"
+  }, [])
   const [teamsData, setTeamsData] = React.useState();
   React.useEffect(() => {
   fetch("/teamsData.json")
@@ -20,7 +25,7 @@ const TeamPage = () => {
       
 
       <div className="text-center">
-        <h1 className="text-6xl lg:text-8xl  text-white font-bold mt-[30px] 	">Services</h1>
+        <h1 className="text-6xl lg:text-8xl  text-white font-bold mt-[30px] 	">Team</h1>
         <div className=" flex items-center justify-center text-white pt-[20px] text-lg gap-2 mb-[10px]">
           
           <Link to={'/'}>Home</Link>
@@ -85,7 +90,26 @@ const TeamPage = () => {
               
             ))
           }
-        </div>
+      </div>
+      <div className="">
+        <div className="w-auto  pt-[100px] bg-[url('/public/assets/down-cover-2.png')] bg-cover  sm:pt-[150px]  pb-[100px] md:-pl-[10px] pl-[0px]  items-center  ">
+      
+      <div className="text-center -pt-[20px] ">
+        <h1 className=" text-6xl text-white font-bold  pb-[25px] 	">Let’s work together
+        </h1>
+        <p className="text-white  ">Each demo built with Teba will look different. You can customize anything <br/> appearance of your website with only a few clicks
+        </p>
+      </div>
+      <div className=" flex justify-center mt-[25px] pb-[30px] ">
+        <button className='btn btn-animation w-[150px] py-8 lg:w-[200px] bg-white text-blue-900 text-lg border-0 outline-none hover:bg-white'>
+                      <p className='animation-top2 w-[140px] lg:w-[200px] text-center'>Let’s Start a Project</p>
+                      <p className='animation-bottom2 w-[140px] lg:w-[200px] text-center'>Let’s Start a Project</p>
+            </button>
+      </div>
+      
+    </div>
+      </div>
+      
 
      
       

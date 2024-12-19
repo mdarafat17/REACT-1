@@ -11,7 +11,7 @@ const PricingBanner = () => {
       
 
       <div className="text-center">
-        <h1 className="text-6xl lg:text-8xl  text-white font-bold mt-[30px] 	">About Us</h1>
+        <h1 className="text-6xl lg:text-8xl  text-white font-bold mt-[30px] 	"> Pricing</h1>
         <div className=" flex items-center justify-center text-white pt-[20px] text-lg gap-2 mb-[10px]">
           
           <Link to={'/'}>Home</Link>

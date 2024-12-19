@@ -47,10 +47,11 @@ const Blogs = () => {
 
         </div>
       </div>
-    </div>
+      </div>
+      
       <div className="container mx-auto px-[1%] lg:px-24 py-12 ">
-        <div className="w-full grid grid-cols-1 md:grid-cols-3  ">
-          <div className="w-full md:col-span-2">
+        <div className="w-full grid grid-cols-1 md:grid-cols-3   ">
+          <div className="w-full      lg:col-span-2 md:col-span-3  md:[@media(max-width:1279px)]:col-span-3 ">
             {
               // currentIndex aita oi carosol er jonno dilam 
               currentIndex && currentIndex?.map((blog, i) => (
@@ -105,7 +106,7 @@ const Blogs = () => {
               </button>
             </div>
           </div>
-          <div className="w-full px-[1%] lg:px-5 md:col-span-1 ">
+          <div className="w-full px-[1%] lg:px-5 md:col-span-1  ">
             <BlogPageRight/>
 
 

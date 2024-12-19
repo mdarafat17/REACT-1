@@ -3,10 +3,12 @@ import { Link } from "react-router-dom";
 import './teams.css'
 import { FaXTwitter } from "react-icons/fa6";
 import DownBanner from "../Services/DownBanner/DownBanner";
+import React from "react";
 
 
 const Teams = () => {
 
+  
   const teamsData = [
     {
       id: 1,
