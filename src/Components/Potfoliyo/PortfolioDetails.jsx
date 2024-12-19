@@ -56,8 +56,8 @@ const PortfolioDetails = () => {
       <div className="container mx-auto px-[1%] lg:px-24 py-12 ">
         <img src={currentData?.photo0} alt="Portfolio" className="w-full h-auto" />
 
-        <div className="w-full grid grid-cols-1 md:grid-cols-3 sm:px-2 md:px-3 xl:px-0">
-          <div className="w-full md:col-span-2">
+        <div className="w-full grid grid-cols-1  lg:grid-cols-3 sm:px-2 md:px-3 xl:px-0 full-width-grid">
+          <div className="w-full md:col-span-2 px-[1%]">
             {/* Display photo1 */}
             
 
@@ -83,7 +83,7 @@ const PortfolioDetails = () => {
               </div>
             )} */}
 
-            <div className="pt-5 flex h-[200px] md:h-[450px] w-[200px] md:w-[450px]  gap-4 ">
+            <div className="pt-5 flex h-[200px] md:h-[450px] w-[200px] md:w-[350px] lg:w-[450px]  gap-4 ">
               <img className="rounded-lg" src={currentData?.discription?.photo1} alt="" />
               <img className="rounded-lg" src={currentData?.discription?.photo2} alt="" />
             </div>
@@ -106,13 +106,14 @@ const PortfolioDetails = () => {
             
           </div>
 {/* Right sidebar or additional content */}
-          <div className="w-full px-[1%] lg:px-5 md:col-span-1 mt-5 move-to-bottom add-padding   " >
+          <div className="w-full px-[1%] lg:px-5   mt-5  md:col-span-1   " >
 
 
-        <div className="">    <div className=" bg-slate-200 px-5 py-7 rounded-lg ">
+            <div className="">
+              <div className=" bg-slate-200 px-5 py-4 xl:py-7  rounded-lg ">
               <h1 className="text-blue-900 font-semibold text-[25px] pb-5 ">Project Details</h1>
 
-              <div className=" flex gap-28 ">
+              <div className=" flex gap-28   ">
                 <div className="">
                   <div className=" flex ">
                 <p className="text-blue-900 font-semibold pb-5"> Client: </p>
